@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Simple calculator</title>
+    <script src="simple-calculator.js"></script>
+    <script src="main.js"></script>
+    <script>
+    window.onload=function(){
+    showVersion();
+    }
+    </script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body class="body">
+<h1 class="title">Simple calculator</h1>
+<div class="text-box"><input class="input" title="calculator" type="text" placeholder="Enter operation" value="1+2" onchange="calculate(this.value)"></div>
+<div class="result-container">
+<div class="title">Result</div>
+<span id="result">3</span>
+</div>
+<div class='version'>Version <span id='version'></span></div>
+</body>
+</html>
