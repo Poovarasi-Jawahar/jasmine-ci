@@ -1,1 +1,1 @@
-# jasmine-ci
+[![Build Status](https://travis-ci.org/Poovarasi-Jawahar/jasmine-ci.svg?branch=master)](https://travis-ci.org/Poovarasi-Jawahar/jasmine-ci)
